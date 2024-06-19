@@ -1,0 +1,3 @@
+C:\Users\kirki\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\kalkulator.dir/objects.a
+C:\Users\kirki\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc CMakeFiles\kalkulator.dir/objects.a @CMakeFiles\kalkulator.dir\objects1.rsp
+C:\Users\kirki\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\kalkulator.dir/objects.a -Wl,--no-whole-archive -o kalkulator.exe -Wl,--out-implib,libkalkulator.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\kalkulator.dir\linkLibs.rsp
